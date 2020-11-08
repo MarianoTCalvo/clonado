@@ -29,6 +29,18 @@
   justify-content: space-around;
  }
 
+ .principal{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(Imagenes/Nube.png), url(Imagenes/Montaña.png), url(Imagenes/Pasto.png);
+ }
+
+.follow{
+  display: flex; 
+  flex-direction: column;
+ } 
+ 
  li{
    margin-left: 30px;
  }
@@ -37,5 +49,12 @@
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
+ }
+
+ .uno{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
  }
  
