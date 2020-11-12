@@ -7,6 +7,13 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    color: white;
+  }
+
+  main{
+    background-image: url(Imagenes/Fondo.png); 
+    height: 800px;
+    background-repeat: no-repeat;
   }
 
   body{
@@ -20,7 +27,7 @@
  header{
     display: flex; 
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
  }
 
  .navegador{
@@ -32,9 +39,8 @@
  .principal{
   display: flex; 
   flex-direction: row;
-  justify-content: space-between;
-  background-image: url(Imagenes/Nube.png), url(Imagenes/Montaña.png), url(Imagenes/Pasto.png);
- }
+  justify-content: space-around;
+  }
 
 .follow{
   display: flex; 
@@ -54,7 +60,46 @@
  .uno{
   display: flex; 
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
  }
+
+ .titulo{
+   padding: 200px;
+ }
+
+ aside{
+   padding-top: 200px;
+ }
+
+ .linea{
+   padding: 40px;
+ }
  
+ .subtitulo{
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  color: #FBD784;
+   }
+
+.read,h4{
+     color: #FBD784;
+  }
+
+footer{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pie{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-pie{
+  padding-left: 20px;
+}
