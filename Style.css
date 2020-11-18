@@ -30,13 +30,13 @@
     justify-content: space-around;
  }
 
- .navegador{
+ .nav{
   display: flex; 
   flex-direction: row;
   justify-content: space-around;
  }
 
- .principal{
+ .section{
   display: flex; 
   flex-direction: row;
   justify-content: space-around;
@@ -51,20 +51,20 @@
    margin-left: 30px;
  }
 
- .guide{
+ .section__section__div--guide{
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
  }
 
- .uno{
+ .article__section{
   display: flex; 
   flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
  }
 
- .titulo{
+ .section__section--title{
    padding: 200px;
  }
 
@@ -72,11 +72,11 @@
    padding-top: 200px;
  }
 
- .linea{
+ .section__section__div__img--linea{
    padding: 40px;
  }
  
- .subtitulo{
+ .section__section__div__p-subtitulo{
   display: flex; 
   flex-direction: row;
   justify-content: flex-start;
@@ -94,12 +94,12 @@ footer{
   justify-content: space-around;
 }
 
-.pie{
+.footer__div{
   display: flex; 
   flex-direction: row;
   justify-content: space-around;
 }
 
-.nav-pie{
+.footer__div__section{
   padding-left: 20px;
 }
